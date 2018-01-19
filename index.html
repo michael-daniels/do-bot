@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container animated shake">
+
+    <div class="title"><i class="fa fa-comments"></i> DoBot</div>
+
+    <div id="submitSection" class="submitSection">
+      <span class="microphone-icon"><i class="fa fa-microphone"></i></span><input type="text" id="userInput" class="input" onkeypress="handleKeyPress(event)" placeholder="Enter keywords like Search, Images, News, Travel, or Music to do things" />
+      <button type="button" class="submitButton" onclick="doIt(userInput)">Do it...</button>
+    </div>
+
+    <div class="mainSection">
+      <div id="doBotMessages" class="do-bot-messages"></div>
+      <div id="doBotOutput" class="do-bot-output"></div>
+
+    </div><!--end mainSection-->
+
+
+  </div><!--end of container-->
+  </body>
+</html>

@@ -1,0 +1,66 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.container {
+  width:95%;
+  margin: 0 auto;
+  text-align:center;
+  padding: 25px 0 0 0;
+}
+.title {
+  font-family:Baloo Tamma;
+  font-size:50px;
+  color:#2ecc71;
+}
+.mainSection {
+  background-color: #ecf0f1;
+  min-height:700px;
+  width:98%;
+  margin: 0 auto;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+.submitSection {
+  background-color:#2ecc71;
+  width:98%;
+  margin: 0 auto;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+}
+.microphone-icon {
+  color:white;
+  padding: 0 15px 0 15px;
+}
+.input {
+  border-radius: 3px;
+  border: none;
+  height:25px;
+  width: 50%;
+  text-align:center;
+  font-family:Comfortaa;
+}
+.submitButton {
+  border-radius: 3px;
+  border: none;
+  height:25px;
+  text-align:center;
+  font-family:Comfortaa;
+  padding: 5px 15px 5px 15px;
+  background-color:#fff;
+}
+.do-bot-messages {
+  padding-top:200px;
+  font-size: 30px;
+  font-family: Comfortaa;
+  color: #2ecc71;
+}
+.do-bot-output {
+  font-size: 30px;
+  font-family: Comfortaa;
+  color: #2ecc71;
+}
